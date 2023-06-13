@@ -134,6 +134,10 @@ header .content-wrapper{
   
 }
 
+header nav{
+
+  width: 60%;
+}
 
 
 header nav ul{
@@ -212,18 +216,56 @@ footer .social-icons p {
 aside{
 
   display:flex;
-  justify-content: center;
+  justify-content: center; 
+  background-color: #517158;
+}
+
+aside .content-wrapper{
+
+  margin: 50px 20px;
 
 }
+aside h3 {
+
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #fff;
+
+}
+
+.form-description p{
+
+  color: #fff;
+
+}
+
+
 
 /*-------Feature- Area ----- */
 
 .feature
-
 {
-
   display:flex;
   justify-content: center;
+  background-image: url("../img/unplugged-retreat-features.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1900px;
+  flex-flow: row wrap;
+
+}
+.feature .content-wrapper{
+
+ 
+  margin: 40px 20px;
+  color: #fff;
+
+}
+
+.feature h2{
+
+  font-size: 2.55em;
 
 }
 
@@ -231,9 +273,28 @@ aside{
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-flow: row wrap;
+
 }
+
+
+article{
+
+  font-size: 1.25em;
+  text-align: center;
+  padding: 30px 50px;
+
+  
+}
+
+
+
+
+
+
+
+
 
 
 /* Reviews */
