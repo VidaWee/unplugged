@@ -191,8 +191,18 @@ footer .social-icons p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 800px;
+  height: 500px;
   
+
+}
+
+.hero-area h1{
+
+  font-size: 3em;
+  font-weight: 500;
+  padding: 30px 0 20px 20px;
+  color: #fff;
+  line-height: 1.25em;
 
 }
 
