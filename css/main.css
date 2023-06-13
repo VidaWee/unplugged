@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  
 }
 
 /*
@@ -91,12 +92,25 @@ textarea {
 
 
 /* -------------------- Base Header - Footer Styles -------------------- */
-   
+.content-wrapper{
+
+  font-family: 'Roboto';
+  font-size: .9em;
+  max-width: 1200px;
+  width: 100%;
+
+
+} 
+
+
+
+
 header{
 
   display:flex;
   justify-content: center;
-
+  background-color: #1F2322;
+  
 }
 
 header .content-wrapper{
@@ -104,19 +118,47 @@ header .content-wrapper{
   display: flex;
   justify-content:center;
   align-items: center;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
+  margin-top: 20px;
+
 }
 
+.header-divider{
+
+  display: flex;
+  justify-content:center;
+  border-top: 1px solid #517158;
+  width: 90%;
+  margin-top: 20px;
+ 
+  
+}
 
 
 
 header nav ul{
 
   display:flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
-  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+ 
+}
 
+header nav ul li a {
+
+ 
+  font-weight: 500;
+  font-size: 1.75em;
+  color: #fff;
+  text-align: center;
+  list-style-type: none;
+  margin: 0 20px;
+ 
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
 
 
