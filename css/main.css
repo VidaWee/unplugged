@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
   
 }
@@ -173,13 +173,43 @@ footer{
   align-items: center;
   flex-flow: center;
   text-align: center;
+  background-color: #1F2322;
+  color: #fff;
+  font-size: 1.5em;
 }
 
-footer .social-icons p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+footer h4{
+
+  font-size: 1.75em;
+
 }
+
+footer address{
+
+  font-style: normal;
+
+}
+.contact{
+
+  padding-top: 50px;
+}
+.social{
+
+  padding: 30px 0;
+}
+
+.social a{
+
+   padding: 10px;
+}
+
+.copyright{
+
+padding: 20px 0;
+font-size: .75em;
+
+}
+
 
 
 
@@ -222,7 +252,7 @@ aside{
 
 aside .content-wrapper{
 
-  margin: 50px 20px;
+  margin: 40px 30px;
 
 }
 aside h3 {
@@ -258,7 +288,7 @@ aside h3 {
 .feature .content-wrapper{
 
  
-  margin: 40px 20px;
+  margin: 40px 30px;
   color: #fff;
 
 }
@@ -289,21 +319,35 @@ article{
 }
 
 
-
-
-
-
-
-
-
-
 /* Reviews */
 
 .reviews {
   display: flex;
   justify-content: center;
+  background-color: #2A423A;
 }
 
+.reviews .content-wrapper{
+
+  height: 600px;
+  margin: 40px 30px;
+  color: #fff;
+
+}
+
+.reviews h2{
+
+  font-size: 2.55em;
+  line-height: 1.2em;
+
+}
+
+.reviews h3{
+
+  font-size: 2em;
+  line-height: 1.5em;
+
+}
 
 
 /*----------- About Page ----------------*/
@@ -318,6 +362,7 @@ article{
 .contact-section {
   display: flex;
   justify-content: center;
+  
 }
 
 
