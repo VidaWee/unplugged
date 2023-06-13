@@ -104,14 +104,18 @@ header .content-wrapper{
   display: flex;
   justify-content:center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 }
+
+
 
 
 header nav ul{
 
   display:flex;
   justify-content: space-around;
+  flex-flow: row wrap;
+  list-style: none;
 
 }
 
@@ -141,6 +145,12 @@ footer .social-icons p {
 
   display:flex;
   justify-content: center;
+  background-image: url("../img/unplugged-retreat.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  
 
 }
 
