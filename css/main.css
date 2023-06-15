@@ -363,9 +363,26 @@ article{
 
   font-size: 1em;
   line-height: 1.5em;
+  text-align: left;
 
 }
 
+figure{
+
+ margin: 0;
+ padding: 0;
+}
+
+article{
+
+margin:0;
+padding: 0;
+  
+}
+.reviews p{
+
+  text-align: left;
+}
 
 /*----------- About Page ----------------*/
 
@@ -567,16 +584,327 @@ article{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+   @media only screen and (min-width: 768px) {
+    /*Tablet styles here*/
+
+    header{
+
+      display:flex;
+      justify-content: center;
+      background-color: #1F2322;
+      
+    }
+    
+    header .content-wrapper{
+    
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      flex-flow: row;
+      margin: 0 100px;
+      flex-grow: 2;
+    
+    }
+    
+    .header-divider{
+    
+      display: flex;
+      border-top: 0; 
+      justify-content: right;
+      align-items: center;
+      padding-bottom: 20px;
+      
+    }
+    
+    header nav{
+    
+      width:50%;
+    }
+    
+    
+    header nav ul{
+    
+      display:flex;
+      justify-content: space-between;
+      padding: 0;
+
+     
+    }
+    
+    header nav ul li a {
+    
+      font-family: 'Poppins';
+      font-weight: 500;
+      font-size: 1.75em;
+      color: #fff;
+      text-align: left;
+      list-style-type: none;
+      margin: 0;
+     
+    }
+
+
+
+  footer{
+    text-align: center;
+    background-color: #1F2322;
+    color: #fff;
+    font-size: 1.5em;
+  }
+
+  footer .content-wrapper{
+
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+    width: 80%
+
+  }
+
+  .footer-contact{
+
+    display: flex;
+    flex-flow: row;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin: 0;
+
+  }
+
+  footer h4{
+
+    font-size: .85em;
+  
+  }
+
+  .contact{
+    padding-right: 150px;
+    padding-top: 20px;
+  }
+  .social{
+
+    padding: 20px 0;
+    justify-content: right;
+  }
+
+  .social a{
+
+    padding: 10px;
+  }
+
+  .copyright{
+
+  margin:20px 0;
+  padding:0;
+  font-size: 1em;
+
+  }
+
+  footer p{
+
+    font-size: .6em;
+  
+  }
+/*-------Hero - Area ----- */
+
+.hero-area{
+
+  display:flex;
+  justify-content: center;
+  background-image: url("../img/unplugged-retreat.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  
+
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+.hero-area .content-wrapper{
+
+  margin: 50px 100px 100px 100px;
+
 }
+
+.hero-area h1{
+
+  font-size: 2.3em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding: 0;
+  color: #fff;
+  line-height: 1.25em;
+
+}
+
+/*-------Aside- Area ----- */
+
+
+aside{
+
+  display:flex;
+  justify-content: center; 
+  background-color: #517158;
+}
+
+
+aside .content-wrapper{
+
+
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin: 40px 100px;
+
+
+}
+
+.form-description{
+
+  width: 50%;
+}
+
+
+aside h3 {
+
+  font-weight: 500;
+  color: #fff;
+  margin-top: 10px;
+
+}
+
+.form-description p{
+
+  
+  color: #fff;
+  font-size: .5;
+  margin-top: 10px;
+
+}
+
+
+/*-------Feature- Area ----- */
+
+.feature
+{
+
+  justify-content: center;
+  background-image: url("../img/unplugged-retreat-features.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.feature .content-wrapper{
+
+ 
+  margin: 90px 100px 100px 100px;
+  color: #fff;
+
+}
+
+.feature h2{
+
+  font-size: 1.8em;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+
+}
+
+.features-items {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  
+
+}
+
+
+.feature article{
+
+  font-size: 1em;
+  text-align: center;
+  width: 40%;
+  text-align: center;
+
+
+  
+}
+
+
+
+
+
+
+
+
+/* ------------------Reviews--------------- */
+
+.reviews {
+  
+  justify-content: flex-start;
+  background-color: #2A423A;
+}
+
+.reviews .content-wrapper{
+
+  margin: 40px 80px;
+  color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+.reviews h2{
+
+  font-size: 1.8em;
+  line-height: 1.2em;
+
+}
+
+figure{
+
+width: 50%;
+
+}
+.reviews h3{
+
+  font-size: 1.2em;
+  line-height: 1.5em;
+  width: 50%;
+
+}
+
+.reviews p{
+
+  width: 50%;
+}
+
+article{
+
+  margin:0;
+  padding: 0;
+    
+  }
+  .reviews p{
+  
+    text-align: left;
+  }
+
+
+
+   
+   @media only screen and (min-width: 1200px) {
+    /*Desktop styles here*/
+
+
+
+
+
+  }
 
 /* ==========================================================================
    Print styles.
