@@ -836,11 +836,6 @@ aside h3 {
 
 
 
-
-
-
-
-
 /* ------------------Reviews--------------- */
 
 .reviews {
@@ -867,33 +862,34 @@ aside h3 {
 
 figure{
 
-width: 50%;
+width: 300%;
 
 }
 .reviews h3{
 
   font-size: 1.2em;
   line-height: 1.5em;
-  width: 50%;
+  margin: 0;
 
 }
 
-.reviews p{
-
-  width: 50%;
-}
-
-article{
-
-  margin:0;
-  padding: 0;
-    
-  }
   .reviews p{
   
     text-align: left;
   }
 
+  .review-content{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .review-article{
+
+    margin-left: 20px;
+  }
 
 
    
