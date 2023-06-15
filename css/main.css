@@ -797,8 +797,8 @@ aside h3 {
 }
 .feature .content-wrapper{
 
- 
-  margin: 90px 100px 100px 100px;
+  margin: 120px 100px;
+  padding: 0;
   color: #fff;
 
 }
@@ -823,11 +823,12 @@ aside h3 {
 }
 
 
-.feature article{
+.feature .features-items article{
 
   font-size: 1em;
   text-align: center;
-  width: 40%;
+  width: 220px;
+  height: 230px;
   text-align: center;
 
 
