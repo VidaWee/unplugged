@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.4;
   
 }
@@ -97,8 +97,8 @@ textarea {
 
 body{
 
-  font-family: 'Roboto';
-  font-size: .9em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
 
 } 
 
@@ -148,7 +148,7 @@ header nav ul{
 
 header nav ul li a {
 
- 
+  font-family: 'Poppins';
   font-weight: 500;
   font-size: 1.75em;
   color: #fff;
@@ -161,6 +161,7 @@ header nav ul li a {
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
+    color: #e2e3ed;
 }
 
 
@@ -178,13 +179,19 @@ footer{
 
 footer h4{
 
-  font-size: 1.3em;
+  font-size: .85em;
 
 }
 
+footer p{
+
+  font-size: .8em;
+
+}
 footer address{
 
   font-style: normal;
+  
 
 }
 .contact{
@@ -203,11 +210,20 @@ footer address{
 
 .copyright{
 
-padding: 20px 0;
-font-size: .75em;
+padding-top: 50px;
+padding-bottom: 20px;
+font-size: .8em;
 
 }
 
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+}
 
 
 
@@ -223,15 +239,16 @@ font-size: .75em;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 600px;
+  height: 500px;
   
 
 }
 
 .hero-area h1{
 
-  font-size: 3em;
-  font-weight: 500;
+  font-size: 2.3em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   padding: 30px 0 20px 20px;
   color: #fff;
   line-height: 1.25em;
@@ -255,15 +272,18 @@ aside .content-wrapper{
 }
 aside h3 {
 
-  font-size: 1.5em;
   font-weight: 500;
   color: #fff;
+  margin-top: 10px;
 
 }
 
 .form-description p{
 
+  
   color: #fff;
+  font-size: .5;
+  margin-top: 10px;
 
 }
 
@@ -292,7 +312,8 @@ aside h3 {
 
 .feature h2{
 
-  font-size: 2.55em;
+  font-size: 1.8em;
+  font-weight: 500;
 
 }
 
@@ -308,7 +329,7 @@ aside h3 {
 
 article{
 
-  font-size: 1.25em;
+  font-size: 1em;
   text-align: center;
   padding: 30px 50px;
 
@@ -333,14 +354,14 @@ article{
 
 .reviews h2{
 
-  font-size: 2.55em;
+  font-size: 1.8em;
   line-height: 1.2em;
 
 }
 
 .reviews h3{
 
-  font-size: 2em;
+  font-size: 1em;
   line-height: 1.5em;
 
 }
@@ -359,7 +380,13 @@ article{
 
 .mission .content-wrapper{
 
-  margin: 20px 40px 30px 30px;
+  margin: 20px
+
+}
+
+.mission p{
+
+  font-size: .9em;
 
 }
 
@@ -374,7 +401,7 @@ article{
 
 .mission h2{
 
-  font-size: 2.55em;
+  font-size: 1.8em;
 
 }
 
@@ -394,14 +421,15 @@ article{
 
 .contact-us h4{
 
-  font-size: 1.3em;
+  font-size: 1.1em;
+  padding: 10px 0;
 
 }
 
 .contact-us address{
 
   font-style: normal;
-
+  font-size: .9em;
 }
 
 
@@ -421,25 +449,31 @@ article{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 30px
+  margin: 20px
 }
 
 .faq h2{
 
 
-  font-size: 2.55em;
+  font-size: 2em;
 
 }
 
 .faq h4{
 
-  font-size: 1.3em;
+  font-size: 1.1em;
 
 }
 
 .faq-content{
 
   padding: 25px 0;
+}
+
+.faq-content p{
+
+  font-size: .9em;
+
 }
 
 
