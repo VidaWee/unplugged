@@ -1381,13 +1381,20 @@ width: 200%;
 
 }
 
-.map{
+.map-container figure{
+  width: 100%;
+  height: 0; 
+  padding-bottom: 125%; 
+  overflow: hidden;
+  position: relative;
+}
 
-  display: flex;
-  justify-content: center;
-  background-color: #ccc;
-  height: 400px;
-
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
 }
 
 .mission h2{
