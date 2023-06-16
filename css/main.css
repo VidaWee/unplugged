@@ -135,7 +135,9 @@ header .content-wrapper{
 
 header nav{
 
-  width: 60%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -408,11 +410,19 @@ aside h3 {
 
 }
 
-figure{
 
- margin: 0;
- padding: 0;
-} 
+.reviews figure{
+
+  width:100%;
+  margin:0;
+  
+  }
+  
+  .reviews img{
+  
+  width: 100%;
+  
+  }
 article{
 
 margin:0;
@@ -935,12 +945,19 @@ aside h3 {
   line-height: 1.2em;
 
 }
+.reviews figure{
 
-figure{
-
-width: 200%;
-
-}
+ 
+  margin:0;
+  
+  }
+  
+  .reviews img{
+  
+  width: 90%;
+  
+  
+  }
 .reviews h3{
 
   font-size: 1.2em;
@@ -965,6 +982,7 @@ width: 200%;
   .review-article{
 
     margin-left: 20px;
+    width: 500px;
   }
 
 
@@ -1433,9 +1451,16 @@ aside h3 {
 
 .reviews figure{
 
-width: 200%;
-
-}
+  width:100%;
+  margin:0;
+  
+  }
+  
+  .reviews img{
+  
+  width: 100%;
+  
+  }
 .reviews h3{
 
   font-size: 1.2em;
