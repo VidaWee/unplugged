@@ -1020,7 +1020,7 @@ width: 200%;
 
   font-size: 2em;
   text-align: left;
-
+  width: 100%;
 }
 
 .faq h4{
@@ -1379,6 +1379,7 @@ width: 200%;
 .mission .content-wrapper{
 
   margin: 60px 70px;
+  max-width: 960px;
 
 }
 
@@ -1432,6 +1433,7 @@ width: 200%;
 
   margin: 60px 0px;
   width: 80%;
+  max-width: 960px;
 
 
 }
@@ -1476,6 +1478,7 @@ width: 200%;
   align-items: center;
   flex-flow: row wrap;
   margin: 70px 70px;
+  max-width: 960px;
 }
 
 .faq h2{
@@ -1483,6 +1486,7 @@ width: 200%;
 
   font-size: 2em;
   text-align: left;
+  width: 100%;
 
 }
 
