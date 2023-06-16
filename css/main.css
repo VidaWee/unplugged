@@ -171,7 +171,6 @@ footer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-flow: center;
   text-align: center;
   background-color: #1F2322;
   color: #fff;
@@ -226,6 +225,19 @@ h4 {
   font-family: 'Poppins', sans-serif;
 }
 
+/*-------------------------Global Homepage -----------------*/
+
+
+.features i {
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+
+.feature p{
+
+  margin-top: 30px;
+}
 
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -311,7 +323,7 @@ aside h3 {
 
   
   color: #fff;
-  font-size: .5;
+  font-size: 0.5em;
   margin-top: 10px;
 
 }
@@ -400,7 +412,7 @@ figure{
 
  margin: 0;
  padding: 0;
-}4
+} 
 article{
 
 margin:0;
@@ -841,7 +853,7 @@ aside h3 {
 
   
   color: #fff;
-  font-size: .5;
+  font-size: .5em;
   margin-top: 10px;
 
 }
@@ -1234,7 +1246,7 @@ width: 200%;
 
 .hero-area{
 
-  background-image: url("../img/unplugged-retreat.jpg" alt="Woman standing on her back on the background-image");
+  background-image: url("../img/unplugged-retreat.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -1334,7 +1346,7 @@ aside h3 {
 
   
   color: #fff;
-  font-size: .5;
+  font-size: .5em;
   margin-top: 10px;
 
 }
@@ -1346,7 +1358,7 @@ aside h3 {
 {
 
   justify-content: center;
-  background-image: url("../img/unplugged-retreat-features.jpg" alt="Group of people outside having a picnic");
+  background-image: url("../img/unplugged-retreat-features.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1370,23 +1382,23 @@ aside h3 {
 
 }
 
+
+
 .features-items {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-around;
-  margin-top: 20px;
   
 
 }
-
 
 .feature .features-items article{
 
   font-size: 1em;
   text-align: center;
   width: 180px;
-  height: 230px;
+  height: 250px;
   text-align: center;
 
 
@@ -1447,7 +1459,7 @@ width: 200%;
 
   .review-article{
 
-    margin-left: 0 40px;
+    margin-left: 40px;
   }
 
 
@@ -1587,6 +1599,7 @@ width: 200%;
 
   padding: 25px 0;
   flex-basis: 45%;
+  
 
   
  
@@ -1676,4 +1689,3 @@ width: 200%;
     page-break-after: avoid;
   }
 }
-
