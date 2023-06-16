@@ -249,9 +249,10 @@ h4 {
   font-size: 2.3em;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  padding: 30px 0 20px 20px;
+  padding: 30px 30px;
   color: #fff;
   line-height: 1.25em;
+  width: 70%;
 
 }
 
@@ -762,12 +763,13 @@ padding: 0;
 
 .hero-area h1{
 
-  font-size: 2.3em;
+  font-size: 3em;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   padding: 0;
   color: #fff;
   line-height: 1.25em;
+  width: 70%;
 
 }
 
@@ -795,10 +797,11 @@ aside .content-wrapper{
 
 .form-description{
 
-  width: 50%;
+  width: 40%;
 }
 aside .form {
-  margin-top: 30px;
+  margin:0;
+  width: 40%;
 }
  
 input[type=text] {
@@ -1228,31 +1231,35 @@ width: 200%;
 
 .hero-area{
 
-  display:flex;
-  justify-content: center;
   background-image: url("../img/unplugged-retreat.jpg" alt="Woman standing on her back on the background-image");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   height: 600px;
+
+  
   
 
 }
 
 .hero-area .content-wrapper{
 
-  margin: 50px 100px 100px 100px;
+  margin: 60px 0;
+  display: flex;
+  justify-content: flex-start;
+  
 
 }
 
 .hero-area h1{
 
-  font-size: 2.3em;
+  font-size: 3em;
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
   padding: 0;
   color: #fff;
   line-height: 1.25em;
+  text-align: left;
+  width: 70%;
+  margin: 0;
 
 }
 
